@@ -1,0 +1,18 @@
+.buttonAddPhoto {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: #0D101D;
+    background-image: url("../../../images/plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px;
+    opacity: 1;
+}
+
+.buttonAddPhoto:hover {
+    opacity: .7;
+    cursor: pointer;
+}

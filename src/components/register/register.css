@@ -1,0 +1,44 @@
+.register {
+    width: 900px;
+    height: 650px;
+    background-image: url("../../images/DSC01418.JPG");
+    background-size: 900px 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register__container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__subtitle {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.register__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.register__link:hover {
+    color: #CBCBCB;
+}
+
+@media screen and (max-width: 1200px) {
+    .register__container {
+        padding-top: 80px;
+    }
+}

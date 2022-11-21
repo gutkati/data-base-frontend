@@ -1,0 +1,22 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.photo__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    width: 600px;
+    height: 200px;
+    padding: 0 50px 0;
+    margin-bottom: 130px;
+}
+
+.photo__title {
+    font-size: 30px;
+}

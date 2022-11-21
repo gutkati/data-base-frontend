@@ -1,0 +1,30 @@
+.header {
+    background: #0D101D;
+    display: flex;
+    justify-content: right;
+}
+
+.header__container {
+    margin: 20px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    opacity: 1;
+}
+
+.header__link:hover {
+    opacity: .7;
+}
+
+.header__active-link {
+    text-decoration: underline;
+    color: #F9E42D;
+    opacity: 1;
+}
+
+.header__active-link:hover {
+    opacity: 1;
+}
