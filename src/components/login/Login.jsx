@@ -15,13 +15,13 @@ const Login = () => {
     return (
         <div className='register'>
             <div className='register__container'>
-            <form className='register__form' onSubmit={handleSubmit}>
-                <MyInput type="text" placeholder="Ведите имя"/>
-                <MyInput type="password" placeholder="Введите пароль"/>
-                <button className='button'>Войти</button>
-                <Link className='register__link' to='/register'>Регистрация</Link>
-            </form>
-        </div>
+                <form className='register__form' onSubmit={handleSubmit}>
+                    <MyInput type="text" placeholder="Ведите имя"/>
+                    <MyInput type="password" placeholder="Введите пароль"/>
+                    <button className='button'>Войти</button>
+                    <Link className='register__link' to='/'>Регистрация</Link>
+                </form>
+            </div>
         </div>
 
     );

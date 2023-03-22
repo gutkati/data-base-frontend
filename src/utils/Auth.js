@@ -11,7 +11,7 @@ function checkResponse(res) {
 }
 
 export const register = (name, password) => {
-    return fetch(`${baseURL}/register`, {
+    return fetch(`${baseURL}/`, {
         method: "POST",
         headers: headers,
         body: JSON.stringify({name, password})
@@ -39,11 +39,11 @@ export const Logout = () => {
         .then(checkResponse)
 }
 
-export const checkToken = () => {
-    return fetch(`${baseURL}/users/me`, {
-        method: "GET",
-        headers: headers,
-    })
-        .then(checkResponse)
-        .then((res) => res)
-}
+// export const checkToken = () => {
+//     return fetch(`${baseURL}/users/me`, {
+//         method: "GET",
+//         headers: headers,
+//     })
+//         .then(checkResponse)
+//         .then((res) => res)
+// }
